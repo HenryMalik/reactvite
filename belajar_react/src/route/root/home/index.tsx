@@ -16,7 +16,7 @@ const Home = () =>{
         //     <List data={userData} display={isVisible} />
         //     <button onClick={handleVisible}>
         //         <span> Show List</span>
-            </button>
+        //     </button>
         // </div>
         <Counter/>
     )
