@@ -1,7 +1,7 @@
-import List from "../../component/List/index";
-import Flatlist from "../../component/Flatlist";
-import Counter from "../../component/Counter";
-import { userData, userInfo} from '../../constants/user_data'
+import List from "../../../component/List/index";
+import Flatlist from "../../../component/Flatlist";
+import Counter from "../../../component/Counter";
+import { userData, userInfo} from '../../../constants/user_data'
 import { useState } from "react";
 
 const Home = () =>{
@@ -16,7 +16,7 @@ const Home = () =>{
         //     <List data={userData} display={isVisible} />
         //     <button onClick={handleVisible}>
         //         <span> Show List</span>
-        //     </button>
+            </button>
         // </div>
         <Counter/>
     )
