@@ -7,6 +7,8 @@ import {
 import "./index.css";
 import Home from "./route/root/home";
 import Register from "./route/root/register";
+import Playtest from "./route/root/playtest";
+import Tugas from "./route/root/tugas"
 
 const router = createBrowserRouter([
   {
@@ -20,6 +22,14 @@ const router = createBrowserRouter([
   {
     path: "/register",
     element: <Register/>
+  },
+  {
+    path: "/playtest",
+    element: <Playtest/>
+  },
+  {
+    path: "/tugas",
+    element: <Tugas/>
   }
 ]);
 
