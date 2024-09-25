@@ -4,7 +4,7 @@
 .maincontent {
 max-width: 70%;
 max-height: 100vh;
-width: 100%;
+width: 100%!important;
 height: 100vh;
 background: #B5D6DD;
 display: flex;
@@ -17,7 +17,17 @@ height: 100vh;
 background: #ffffff;
 }
 .testbox {
-width: 50vh;
-height: 50vh;
-color: #ababab;
+overflow: hidden;
+background: #ababab;
+width: 100%;
+margin: 48px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.box {
+    background: #000000;
+    margin: 0 auto 0;
+    width: auto;
+    height: 10vh;
 }

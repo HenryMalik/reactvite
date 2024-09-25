@@ -10,7 +10,15 @@ return (
     <div className={styles.container}>        
 <div className={styles.maincontent}>
 <div className={styles.testbox}>
-        <h1>Henllo Womrld</h1>
+        <div className={styles.box}>
+            <h3>Hi!</h3>
+            </div>
+        <div className={styles.box}>
+        <h3>Hi!</h3>
+        </div>
+        <div className={styles.box}>
+        <h3>Hi!</h3>
+        </div>
 </div>
 </div>
 <div className={styles.sidemenu}>

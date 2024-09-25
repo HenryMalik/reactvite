@@ -3,6 +3,7 @@ import Flatlist from "../../../component/Flatlist";
 import Counter from "../../../component/Counter";
 import { userData, userInfo} from '../../../constants/user_data'
 import { useState } from "react";
+import styles from "./index.module.css"
 
 const Home = () =>{
     const [isVisible, setIsVisible] = useState(false)
