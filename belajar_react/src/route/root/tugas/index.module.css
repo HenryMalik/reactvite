@@ -6,7 +6,7 @@ max-width: 70%;
 max-height: 100vh;
 width: 100%!important;
 height: 100vh;
-background: #B5D6DD;
+background: #abcfda;
 display: flex;
 flex-wrap: wrap;
 }
@@ -18,27 +18,70 @@ height: 100vh;
 background: #ffffff;
 }
 .testbox {
-background: #ababab;
+background: #ffffff;
 width: 100%;
 margin: 48px;
+margin-bottom: 0;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 flex-wrap: wrap;
 }
 .box {
-    background: #000000;
     display: flex;
     width: auto;
     height: max-content;
-    margin: 0 5w0px;
+    margin: 0 50px;
 }
-.box h3 {
-    margin: 0 10px;
+.box a {
+    margin: 20px 25px 0;
+}
+h2 {
+    color: #000000;
+}
+h3 {
+    color: #000000;
 }
 .carousel {
     background: whitesmoke;
     width: 100%;
+    height: 60%;
+    margin: -10% 0;
+}
+.catalog {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
     height: 40%;
-    margin: -40% 0;
+    margin-top: 20px;
+    margin-bottom: -15%;
+    flex-wrap: wrap;
+}
+.catalog h2 {
+    margin: 0;
+}
+.catalog button {
+    background: #B5D6DD;
+    color: #000000;
+    font-size: 12px;
+    width: fit-content;
+    height: 12%;
+    padding: 0 12px;
+    font-weight: bold;
+    border-radius: 5vh;
+    align-items: end;
+    margin-left: 80vh;  
+}
+.category {
+    background: linear-gradient(#ffffff00, rgba(197, 197, 197, 0.5));
+    height: 40%;
+    width: 10%;
+    border-radius: 2vh;
+    text-align: center;
+}
+.category p {
+    color: #000000;
+    font-weight: 700;
 }
